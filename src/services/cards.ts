@@ -1,7 +1,7 @@
 import type { Card } from '../types';
 
 const STORAGE_KEY = 'slay-cards';
-const DEFAULT_CARDS_URL = '/data/cards.json';
+const DEFAULT_CARDS_URL = `${import.meta.env.BASE_URL}data/cards.json`;
 
 // 从 localStorage 获取自定义卡牌，如果没有则从默认文件加载
 export async function loadCards(): Promise<Card[]> {

@@ -15,7 +15,7 @@ async function loadApiConfig(): Promise<Partial<AppSettings>> {
   if (_configLoaded) return _configCache ?? {};
   _configLoaded = true;
   try {
-    const res = await fetch('/api.config.json');
+    const res = await fetch(`${import.meta.env.BASE_URL}api.config.json`);
     if (res.ok) {
       _configCache = await res.json();
       return _configCache ?? {};
