@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ThemeToggle from './components/ThemeToggle';
 import ChatPage from './pages/ChatPage';
@@ -7,7 +7,7 @@ import SettingsPage from './pages/SettingsPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 transition-colors">
         <Navbar />
         <Routes>
@@ -17,7 +17,7 @@ function App() {
         </Routes>
         <ThemeToggle />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
