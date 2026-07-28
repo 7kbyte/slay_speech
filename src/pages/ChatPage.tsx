@@ -50,8 +50,11 @@ export default function ChatPage() {
 
   const handleIntent = useCallback(
     async (intent: string) => {
-      if (!settings.apiKey) {
-        setError('请先在设置中配置 API Key');
+      const invalidKeys = ['', 'your-deepseek-api-key-here', 'sk-your-api-key'];
+      const hasValidKey = settings.apiKey && !invalidKeys.some(k => settings.apiKey.includes(k));
+
+      if (!hasValidKey) {
+        setError('no-api-key');
         return;
       }
 
@@ -264,14 +267,26 @@ export default function ChatPage() {
 
         {/* 错误提示 */}
         {error && (
-          <div className="px-4 py-2 mx-4 rounded-lg bg-red-50 dark:bg-red-500/10 border border-red-200 dark:border-red-500/20 text-sm text-red-600 dark:text-red-400">
-            {error}
-            <button
-              onClick={() => setError('')}
-              className="ml-2 text-red-500 hover:text-red-700 dark:hover:text-red-300"
-            >
-              ✕
-            </button>
+          <div className="px-4 py-3 mx-4 rounded-lg bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/20 text-sm text-amber-700 dark:text-amber-400">
+            {error === 'no-api-key' ? (
+              <span>
+                ⚠️ 尚未配置 API Key，请先前往{' '}
+                <a href="#/settings" className="underline font-medium hover:text-amber-600 dark:hover:text-amber-300">
+                  设置页面
+                </a>{' '}
+                填入你的 DeepSeek API Key 后再使用。
+              </span>
+            ) : (
+              <>
+                {error}
+                <button
+                  onClick={() => setError('')}
+                  className="ml-2 text-red-500 hover:text-red-700 dark:hover:text-red-300"
+                >
+                  ✕
+                </button>
+              </>
+            )}
           </div>
         )}
 

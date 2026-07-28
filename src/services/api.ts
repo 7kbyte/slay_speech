@@ -96,8 +96,11 @@ export async function selectCards(
 ): Promise<AIResponse> {
   const settings = await getSettings();
 
-  if (!settings.apiKey) {
-    throw new Error('请先在设置中配置 API Key');
+  // 检查 API Key 是否有效：不为空且不是占位符
+  const invalidKeys = ['', 'your-deepseek-api-key-here', 'sk-your-api-key'];
+  const isInvalidKey = !settings.apiKey || invalidKeys.some(k => settings.apiKey.includes(k));
+  if (isInvalidKey) {
+    throw new Error('请先在「设置」页面填入你的 DeepSeek API Key');
   }
 
   const promptConfig = await loadPromptConfig();
