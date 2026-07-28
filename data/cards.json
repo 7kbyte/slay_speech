@@ -1,0 +1,2942 @@
+[
+  {
+    "name": "打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a8/Strike_ironclad.png",
+    "localPath": "image/strike_ironclad.png"
+  },
+  {
+    "name": "痛击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d8/Bash.png",
+    "localPath": "image/bash.png"
+  },
+  {
+    "name": "愤怒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3f/Anger.png",
+    "localPath": "image/anger.png"
+  },
+  {
+    "name": "飞剑回旋镖",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f3/Sword_boomerang.png",
+    "localPath": "image/sword_boomerang.png"
+  },
+  {
+    "name": "剑柄打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/40/Pommel_strike.png",
+    "localPath": "image/pommel_strike.png"
+  },
+  {
+    "name": "全身撞击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ae/Body_slam.png",
+    "localPath": "image/body_slam.png"
+  },
+  {
+    "name": "熔融之拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8a/Molten_fist.png",
+    "localPath": "image/molten_fist.png"
+  },
+  {
+    "name": "闪电霹雳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8a/Thunderclap.png",
+    "localPath": "image/thunderclap.png"
+  },
+  {
+    "name": "双重打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f7/Twin_strike.png",
+    "localPath": "image/twin_strike.png"
+  },
+  {
+    "name": "铁斩波",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/84/Iron_wave.png",
+    "localPath": "image/iron_wave.png"
+  },
+  {
+    "name": "头槌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1a/Headbutt.png",
+    "localPath": "image/headbutt.png"
+  },
+  {
+    "name": "突破",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/67/Breakthrough.png",
+    "localPath": "image/breakthrough.png"
+  },
+  {
+    "name": "预备打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/39/Setup_strike.png",
+    "localPath": "image/setup_strike.png"
+  },
+  {
+    "name": "完美打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5e/Perfected_strike.png",
+    "localPath": "image/perfected_strike.png"
+  },
+  {
+    "name": "余烬",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/34/Cinder.png",
+    "localPath": "image/cinder.png"
+  },
+  {
+    "name": "欺凌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/84/Bully.png",
+    "localPath": "image/bully.png"
+  },
+  {
+    "name": "旋风斩",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e0/Whirlwind.png",
+    "localPath": "image/whirlwind.png"
+  },
+  {
+    "name": "怨恨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a3/Spite.png",
+    "localPath": "image/spite.png"
+  },
+  {
+    "name": "暴走",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e4/Rampage.png",
+    "localPath": "image/rampage.png"
+  },
+  {
+    "name": "拆卸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/90/Dismantle.png",
+    "localPath": "image/dismantle.png"
+  },
+  {
+    "name": "灰烬打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0f/Ashen_strike.png",
+    "localPath": "image/ashen_strike.png"
+  },
+  {
+    "name": "劫掠",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1e/Pillage.png",
+    "localPath": "image/pillage.png"
+  },
+  {
+    "name": "御血术",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/17/Hemokinesis.png",
+    "localPath": "image/hemokinesis.png"
+  },
+  {
+    "name": "上勾拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/27/Uppercut.png",
+    "localPath": "image/uppercut.png"
+  },
+  {
+    "name": "无情猛攻",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/58/Unrelenting.png",
+    "localPath": "image/unrelenting.png"
+  },
+  {
+    "name": "与我一战！",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d8/Fight_me.png",
+    "localPath": "image/fight_me.png"
+  },
+  {
+    "name": "彼岸咆哮",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/48/Howl_from_beyond.png",
+    "localPath": "image/howl_from_beyond.png"
+  },
+  {
+    "name": "踩踏",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d4/Stomp.png",
+    "localPath": "image/stomp.png"
+  },
+  {
+    "name": "重锤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/96/Bludgeon.png",
+    "localPath": "image/bludgeon.png"
+  },
+  {
+    "name": "群情激愤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2e/Outrage.png",
+    "localPath": "image/outrage.png"
+  },
+  {
+    "name": "契约终结",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f0/Pacts_end.png",
+    "localPath": "image/pacts_end.png"
+  },
+  {
+    "name": "焚烧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b5/Conflagration.png",
+    "localPath": "image/conflagration.png"
+  },
+  {
+    "name": "狂宴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/44/Feed.png",
+    "localPath": "image/feed.png"
+  },
+  {
+    "name": "痛殴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Thrash.png",
+    "localPath": "image/thrash.png"
+  },
+  {
+    "name": "扯碎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/08/Tear_asunder.png",
+    "localPath": "image/tear_asunder.png"
+  },
+  {
+    "name": "恶魔之焰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a9/Fiend_fire.png",
+    "localPath": "image/fiend_fire.png"
+  },
+  {
+    "name": "凌虐",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/be/Mangle.png",
+    "localPath": "image/mangle.png"
+  },
+  {
+    "name": "午夜",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fe/Midnight.png",
+    "localPath": "image/midnight.png"
+  },
+  {
+    "name": "破击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3b/Break.png",
+    "localPath": "image/break.png"
+  },
+  {
+    "name": "防御",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bb/Defend_ironclad.png",
+    "localPath": "image/defend_ironclad.png"
+  },
+  {
+    "name": "放血",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/ff/Bloodletting.png",
+    "localPath": "image/bloodletting.png"
+  },
+  {
+    "name": "坚毅",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/01/True_grit.png",
+    "localPath": "image/true_grit.png"
+  },
+  {
+    "name": "破灭",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5b/Havoc.png",
+    "localPath": "image/havoc.png"
+  },
+  {
+    "name": "耸肩无视",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c4/Shrug_it_off.png",
+    "localPath": "image/shrug_it_off.png"
+  },
+  {
+    "name": "武装",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c3/Armaments.png",
+    "localPath": "image/armaments.png"
+  },
+  {
+    "name": "战栗",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2a/Tremble.png",
+    "localPath": "image/tremble.png"
+  },
+  {
+    "name": "血墙",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1d/Blood_wall.png",
+    "localPath": "image/blood_wall.png"
+  },
+  {
+    "name": "恶魔护盾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c8/Demonic_shield.png",
+    "localPath": "image/demonic_shield.png"
+  },
+  {
+    "name": "狂怒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/27/Rage.png",
+    "localPath": "image/rage.png"
+  },
+  {
+    "name": "战斗专注",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/78/Battle_trance.png",
+    "localPath": "image/battle_trance.png"
+  },
+  {
+    "name": "被遗忘的仪式",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/78/Forgotten_ritual.png",
+    "localPath": "image/forgotten_ritual.png"
+  },
+  {
+    "name": "地狱之刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/af/Infernal_blade.png",
+    "localPath": "image/infernal_blade.png"
+  },
+  {
+    "name": "巨像",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bb/Colossus.png",
+    "localPath": "image/colossus.png"
+  },
+  {
+    "name": "燃烧契约",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/13/Burning_pact.png",
+    "localPath": "image/burning_pact.png"
+  },
+  {
+    "name": "挑衅",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cc/Taunt.png",
+    "localPath": "image/taunt.png"
+  },
+  {
+    "name": "邪眼",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a6/Evil_eye.png",
+    "localPath": "image/evil_eye.png"
+  },
+  {
+    "name": "战鼓",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0b/Drum_of_battle.png",
+    "localPath": "image/drum_of_battle.png"
+  },
+  {
+    "name": "重振精神",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/53/Second_wind.png",
+    "localPath": "image/second_wind.png"
+  },
+  {
+    "name": "主宰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/92/Dominate.png",
+    "localPath": "image/dominate.png"
+  },
+  {
+    "name": "火焰屏障",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e3/Flame_barrier.png",
+    "localPath": "image/flame_barrier.png"
+  },
+  {
+    "name": "跃跃欲试",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f7/Expect_a_fight.png",
+    "localPath": "image/expect_a_fight.png"
+  },
+  {
+    "name": "炽焰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bd/Blaze.png",
+    "localPath": "image/blaze.png"
+  },
+  {
+    "name": "祭品",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Offering.png",
+    "localPath": "image/offering.png"
+  },
+  {
+    "name": "烙印",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/62/Brand.png",
+    "localPath": "image/brand.png"
+  },
+  {
+    "name": "倾泻",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Cascade.png",
+    "localPath": "image/cascade.png"
+  },
+  {
+    "name": "原始力量",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/15/Primal_force.png",
+    "localPath": "image/primal_force.png"
+  },
+  {
+    "name": "连环拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2f/One_two_punch.png",
+    "localPath": "image/one_two_punch.png"
+  },
+  {
+    "name": "添柴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/54/Stoke.png",
+    "localPath": "image/stoke.png"
+  },
+  {
+    "name": "岿然不动",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e3/Impervious.png",
+    "localPath": "image/impervious.png"
+  },
+  {
+    "name": "时候未到",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f9/Not_yet.png",
+    "localPath": "image/not_yet.png"
+  },
+  {
+    "name": "燃烧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/02/Inflame.png",
+    "localPath": "image/inflame.png"
+  },
+  {
+    "name": "撕裂",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/38/Rupture.png",
+    "localPath": "image/rupture.png"
+  },
+  {
+    "name": "无惧疼痛",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9d/Feel_no_pain.png",
+    "localPath": "image/feel_no_pain.png"
+  },
+  {
+    "name": "凶恶",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/55/Vicious.png",
+    "localPath": "image/vicious.png"
+  },
+  {
+    "name": "岩石铠甲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e6/Stone_armor.png",
+    "localPath": "image/stone_armor.png"
+  },
+  {
+    "name": "狱火",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/be/Inferno.png",
+    "localPath": "image/inferno.png"
+  },
+  {
+    "name": "杂耍",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/09/Juggling.png",
+    "localPath": "image/juggling.png"
+  },
+  {
+    "name": "惊逃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Stampede.png",
+    "localPath": "image/stampede.png"
+  },
+  {
+    "name": "残酷",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e4/Cruelty.png",
+    "localPath": "image/cruelty.png"
+  },
+  {
+    "name": "绯红披风",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d9/Crimson_mantle.png",
+    "localPath": "image/crimson_mantle.png"
+  },
+  {
+    "name": "好勇斗狠",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/04/Aggression.png",
+    "localPath": "image/aggression.png"
+  },
+  {
+    "name": "肉盾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9d/Tank.png",
+    "localPath": "image/tank.png"
+  },
+  {
+    "name": "地狱狂徒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7c/Hellraiser.png",
+    "localPath": "image/hellraiser.png"
+  },
+  {
+    "name": "黑暗之拥",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a8/Dark_embrace.png",
+    "localPath": "image/dark_embrace.png"
+  },
+  {
+    "name": "坚定不移",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d0/Unmovable.png",
+    "localPath": "image/unmovable.png"
+  },
+  {
+    "name": "势不可当",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Juggernaut.png",
+    "localPath": "image/juggernaut.png"
+  },
+  {
+    "name": "薪火之源",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4f/Pyre.png",
+    "localPath": "image/pyre.png"
+  },
+  {
+    "name": "壁垒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/12/Barricade.png",
+    "localPath": "image/barricade.png"
+  },
+  {
+    "name": "恶魔形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4a/Demon_form.png",
+    "localPath": "image/demon_form.png"
+  },
+  {
+    "name": "腐化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/75/Corruption.png",
+    "localPath": "image/corruption.png"
+  },
+  {
+    "name": "中和",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c5/Neutralize.png",
+    "localPath": "image/neutralize.png"
+  },
+  {
+    "name": "切割",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ad/Slice.png",
+    "localPath": "image/slice.png"
+  },
+  {
+    "name": "匕首雨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2b/Dagger_spray.png",
+    "localPath": "image/dagger_spray.png"
+  },
+  {
+    "name": "带毒刺击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3a/Poisoned_stab.png",
+    "localPath": "image/poisoned_stab.png"
+  },
+  {
+    "name": "翻越撑击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f6/Flick_flack.png",
+    "localPath": "image/flick_flack.png"
+  },
+  {
+    "name": "投掷匕首",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/26/Dagger_throw.png",
+    "localPath": "image/dagger_throw.png"
+  },
+  {
+    "name": "突然一拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/95/Sucker_punch.png",
+    "localPath": "image/sucker_punch.png"
+  },
+  {
+    "name": "先制打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cb/Leading_strike.png",
+    "localPath": "image/leading_strike.png"
+  },
+  {
+    "name": "连续反弹",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/87/Ricochet.png",
+    "localPath": "image/ricochet.png"
+  },
+  {
+    "name": "猎杀者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e9/Predator.png",
+    "localPath": "image/predator.png"
+  },
+  {
+    "name": "跟进",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0c/Follow_through.png",
+    "localPath": "image/follow_through.png"
+  },
+  {
+    "name": "背刺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7a/Backstab.png",
+    "localPath": "image/backstab.png"
+  },
+  {
+    "name": "串刺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Skewer.png",
+    "localPath": "image/skewer.png"
+  },
+  {
+    "name": "精确切击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9a/Precise_cut.png",
+    "localPath": "image/precise_cut.png"
+  },
+  {
+    "name": "飞镖",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cc/Flechettes.png",
+    "localPath": "image/flechettes.png"
+  },
+  {
+    "name": "紧勒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ab/Strangle.png",
+    "localPath": "image/strangle.png"
+  },
+  {
+    "name": "铭记死亡",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8c/Memento_mori.png",
+    "localPath": "image/memento_mori.png"
+  },
+  {
+    "name": "终结技",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9f/Finisher.png",
+    "localPath": "image/finisher.png"
+  },
+  {
+    "name": "冲刺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/55/Dash.png",
+    "localPath": "image/dash.png"
+  },
+  {
+    "name": "猛扑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/12/Pounce.png",
+    "localPath": "image/pounce.png"
+  },
+  {
+    "name": "精密瞄准",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1e/Pinpoint.png",
+    "localPath": "image/pinpoint.png"
+  },
+  {
+    "name": "刺杀",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/34/Assassinate.png",
+    "localPath": "image/assassinate.png"
+  },
+  {
+    "name": "华丽收场",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ec/Grand_finale.png",
+    "localPath": "image/grand_finale.png"
+  },
+  {
+    "name": "回响斩击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c5/Echoing_slash.png",
+    "localPath": "image/echoing_slash.png"
+  },
+  {
+    "name": "狩猎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a8/The_hunt.png",
+    "localPath": "image/the_hunt.png"
+  },
+  {
+    "name": "谋杀",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/91/Murder.png",
+    "localPath": "image/murder.png"
+  },
+  {
+    "name": "压制",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ad/Suppress.png",
+    "localPath": "image/suppress.png"
+  },
+  {
+    "name": "生存者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Survivor.png",
+    "localPath": "image/survivor.png"
+  },
+  {
+    "name": "偏折",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/29/Deflect.png",
+    "localPath": "image/deflect.png"
+  },
+  {
+    "name": "预判",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6e/Anticipate.png",
+    "localPath": "image/anticipate.png"
+  },
+  {
+    "name": "早有准备",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/83/Prepared.png",
+    "localPath": "image/prepared.png"
+  },
+  {
+    "name": "刀刃之舞",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a3/Blade_dance.png",
+    "localPath": "image/blade_dance.png"
+  },
+  {
+    "name": "斗篷与匕首",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c8/Cloak_and_dagger.png",
+    "localPath": "image/cloak_and_dagger.png"
+  },
+  {
+    "name": "后空翻",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/74/Backflip.png",
+    "localPath": "image/backflip.png"
+  },
+  {
+    "name": "尖啸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/53/Piercing_wail.png",
+    "localPath": "image/piercing_wail.png"
+  },
+  {
+    "name": "闪躲翻滚",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/79/Dodge_and_roll.png",
+    "localPath": "image/dodge_and_roll.png"
+  },
+  {
+    "name": "致命毒药",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/82/Deadly_poison.png",
+    "localPath": "image/deadly_poison.png"
+  },
+  {
+    "name": "触不可及",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Untouchable.png",
+    "localPath": "image/untouchable.png"
+  },
+  {
+    "name": "蛇咬",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/05/Snakebite.png",
+    "localPath": "image/snakebite.png"
+  },
+  {
+    "name": "暴露",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/29/Expose.png",
+    "localPath": "image/expose.png"
+  },
+  {
+    "name": "恫吓",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/ba/Scare.png",
+    "localPath": "image/scare.png"
+  },
+  {
+    "name": "计算下注",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c2/Calculated_gamble.png",
+    "localPath": "image/calculated_gamble.png"
+  },
+  {
+    "name": "逃脱计划",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6e/Escape_plan.png",
+    "localPath": "image/escape_plan.png"
+  },
+  {
+    "name": "隐秘匕首",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c2/Hidden_daggers.png",
+    "localPath": "image/hidden_daggers.png"
+  },
+  {
+    "name": "残影",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Blur.png",
+    "localPath": "image/blur.png"
+  },
+  {
+    "name": "独门技术",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b8/Expertise.png",
+    "localPath": "image/expertise.png"
+  },
+  {
+    "name": "咕嘟冒泡",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/85/Bubble_bubble.png",
+    "localPath": "image/bubble_bubble.png"
+  },
+  {
+    "name": "蜃景",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fb/Mirage.png",
+    "localPath": "image/mirage.png"
+  },
+  {
+    "name": "手上技法",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Hand_trick.png",
+    "localPath": "image/hand_trick.png"
+  },
+  {
+    "name": "杂技",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/db/Acrobatics.png",
+    "localPath": "image/acrobatics.png"
+  },
+  {
+    "name": "弹跳药瓶",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Bouncing_flask.png",
+    "localPath": "image/bouncing_flask.png"
+  },
+  {
+    "name": "夹击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d8/Flanking.png",
+    "localPath": "image/flanking.png"
+  },
+  {
+    "name": "扫腿",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/45/Leg_sweep.png",
+    "localPath": "image/leg_sweep.png"
+  },
+  {
+    "name": "袖里乾坤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a5/Up_my_sleeve.png",
+    "localPath": "image/up_my_sleeve.png"
+  },
+  {
+    "name": "本能反应",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b2/Reflex.png",
+    "localPath": "image/reflex.png"
+  },
+  {
+    "name": "迷雾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e8/Haze.png",
+    "localPath": "image/haze.png"
+  },
+  {
+    "name": "战术大师",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/77/Tactician.png",
+    "localPath": "image/tactician.png"
+  },
+  {
+    "name": "刀刃交响曲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/39/Blade_symphony.png",
+    "localPath": "image/blade_symphony.png"
+  },
+  {
+    "name": "调制",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7d/Concoct.png",
+    "localPath": "image/concoct.png"
+  },
+  {
+    "name": "消影",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/12/Fade.png",
+    "localPath": "image/fade.png"
+  },
+  {
+    "name": "肾上腺素",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e3/Adrenaline.png",
+    "localPath": "image/adrenaline.png"
+  },
+  {
+    "name": "萎靡",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d1/Malaise.png",
+    "localPath": "image/malaise.png"
+  },
+  {
+    "name": "暗影步",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/43/Shadow_step.png",
+    "localPath": "image/shadow_step.png"
+  },
+  {
+    "name": "爆发",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Burst.png",
+    "localPath": "image/burst.png"
+  },
+  {
+    "name": "腐蚀波",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5f/Corrosive_wave.png",
+    "localPath": "image/corrosive_wave.png"
+  },
+  {
+    "name": "钢铁风暴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/26/Storm_of_steel.png",
+    "localPath": "image/storm_of_steel.png"
+  },
+  {
+    "name": "墨之刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/10/Blade_of_ink.png",
+    "localPath": "image/blade_of_ink.png"
+  },
+  {
+    "name": "融入暗影",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/88/Shadowmeld.png",
+    "localPath": "image/shadowmeld.png"
+  },
+  {
+    "name": "刀刃陷阱",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/61/Knife_trap.png",
+    "localPath": "image/knife_trap.png"
+  },
+  {
+    "name": "夜魇",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9b/Nightmare.png",
+    "localPath": "image/nightmare.png"
+  },
+  {
+    "name": "子弹时间",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/14/Bullet_time.png",
+    "localPath": "image/bullet_time.png"
+  },
+  {
+    "name": "毒雾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b9/Noxious_fumes.png",
+    "localPath": "image/noxious_fumes.png"
+  },
+  {
+    "name": "毒性爆发",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Outbreak.png",
+    "localPath": "image/outbreak.png"
+  },
+  {
+    "name": "幻影之刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f0/Phantom_blades.png",
+    "localPath": "image/phantom_blades.png"
+  },
+  {
+    "name": "计划妥当",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/68/Well_laid_plans.png",
+    "localPath": "image/well_laid_plans.png"
+  },
+  {
+    "name": "精准",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4c/Accuracy.png",
+    "localPath": "image/accuracy.png"
+  },
+  {
+    "name": "灵动步法",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/84/Footwork.png",
+    "localPath": "image/footwork.png"
+  },
+  {
+    "name": "无尽刀刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/03/Infinite_blades.png",
+    "localPath": "image/infinite_blades.png"
+  },
+  {
+    "name": "速行者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/db/Speedster.png",
+    "localPath": "image/speedster.png"
+  },
+  {
+    "name": "必备工具",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5f/Tools_of_the_trade.png",
+    "localPath": "image/tools_of_the_trade.png"
+  },
+  {
+    "name": "触媒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b5/Accelerant.png",
+    "localPath": "image/accelerant.png"
+  },
+  {
+    "name": "余像",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3c/Afterimage.png",
+    "localPath": "image/afterimage.png"
+  },
+  {
+    "name": "刀扇",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Fan_of_knives.png",
+    "localPath": "image/fan_of_knives.png"
+  },
+  {
+    "name": "跟踪",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5f/Tracking.png",
+    "localPath": "image/tracking.png"
+  },
+  {
+    "name": "鬼祟",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4c/Sneaky.png",
+    "localPath": "image/sneaky.png"
+  },
+  {
+    "name": "谋划专家",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3e/Master_planner.png",
+    "localPath": "image/master_planner.png"
+  },
+  {
+    "name": "涂毒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/17/Envenom.png",
+    "localPath": "image/envenom.png"
+  },
+  {
+    "name": "磨蚀",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/09/Abrasive.png",
+    "localPath": "image/abrasive.png"
+  },
+  {
+    "name": "群蛇形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/46/Serpent_form.png",
+    "localPath": "image/serpent_form.png"
+  },
+  {
+    "name": "幽魂形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3c/Wraith_form.png",
+    "localPath": "image/wraith_form.png"
+  },
+  {
+    "name": "光束射线",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/83/Beam_cell.png",
+    "localPath": "image/beam_cell.png"
+  },
+  {
+    "name": "眼部攻击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9f/Go_for_the_eyes.png",
+    "localPath": "image/go_for_the_eyes.png"
+  },
+  {
+    "name": "爪击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Claw.png",
+    "localPath": "image/claw.png"
+  },
+  {
+    "name": "编译冲击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a0/Compile_driver.png",
+    "localPath": "image/compile_driver.png"
+  },
+  {
+    "name": "趁势打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e4/Momentum_strike.png",
+    "localPath": "image/momentum_strike.png"
+  },
+  {
+    "name": "弹幕齐射",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2c/Barrage.png",
+    "localPath": "image/barrage.png"
+  },
+  {
+    "name": "寒流",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bd/Cold_snap.png",
+    "localPath": "image/cold_snap.png"
+  },
+  {
+    "name": "集中打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ea/Focused_strike.png",
+    "localPath": "image/focused_strike.png"
+  },
+  {
+    "name": "球状闪电",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/97/Ball_lightning.png",
+    "localPath": "image/ball_lightning.png"
+  },
+  {
+    "name": "扫荡射线",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/63/Sweeping_beam.png",
+    "localPath": "image/sweeping_beam.png"
+  },
+  {
+    "name": "污秽攻击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e9/Gunk_up.png",
+    "localPath": "image/gunk_up.png"
+  },
+  {
+    "name": "骚动",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/03/Uproar.png",
+    "localPath": "image/uproar.png"
+  },
+  {
+    "name": "超越光速",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/43/Ftl.png",
+    "localPath": "image/ftl.png"
+  },
+  {
+    "name": "特斯拉线圈",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c1/Tesla_coil.png",
+    "localPath": "image/tesla_coil.png"
+  },
+  {
+    "name": "刮削",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/94/Scrape.png",
+    "localPath": "image/scrape.png"
+  },
+  {
+    "name": "火箭飞拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ea/Rocket_punch.png",
+    "localPath": "image/rocket_punch.png"
+  },
+  {
+    "name": "空值",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0d/Null.png",
+    "localPath": "image/null.png"
+  },
+  {
+    "name": "人工合成",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8d/Synthesis.png",
+    "localPath": "image/synthesis.png"
+  },
+  {
+    "name": "分离",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/60/Sunder.png",
+    "localPath": "image/sunder.png"
+  },
+  {
+    "name": "折射",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c0/Refract.png",
+    "localPath": "image/refract.png"
+  },
+  {
+    "name": "螺旋钻击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/20/Helix_drill.png",
+    "localPath": "image/helix_drill.png"
+  },
+  {
+    "name": "打碎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/27/Shatter.png",
+    "localPath": "image/shatter.png"
+  },
+  {
+    "name": "超能光束",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f3/Hyperbeam.png",
+    "localPath": "image/hyperbeam.png"
+  },
+  {
+    "name": "散射炮",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Flak_cannon.png",
+    "localPath": "image/flak_cannon.png"
+  },
+  {
+    "name": "适应打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f0/Adaptive_strike.png",
+    "localPath": "image/adaptive_strike.png"
+  },
+  {
+    "name": "万物一心",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0b/All_for_one.png",
+    "localPath": "image/all_for_one.png"
+  },
+  {
+    "name": "冰之长枪",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b2/Ice_lance.png",
+    "localPath": "image/ice_lance.png"
+  },
+  {
+    "name": "陨石打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/22/Meteor_strike.png",
+    "localPath": "image/meteor_strike.png"
+  },
+  {
+    "name": "电击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0b/Zap.png",
+    "localPath": "image/zap.png"
+  },
+  {
+    "name": "双重释放",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/00/Dualcast.png",
+    "localPath": "image/dualcast.png"
+  },
+  {
+    "name": "高速脱离",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Boost_away.png",
+    "localPath": "image/boost_away.png"
+  },
+  {
+    "name": "内核加速",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b6/Turbo.png",
+    "localPath": "image/turbo.png"
+  },
+  {
+    "name": "热修复",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/08/Hotfix.png",
+    "localPath": "image/hotfix.png"
+  },
+  {
+    "name": "充电",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0b/Charge_battery.png",
+    "localPath": "image/charge_battery.png"
+  },
+  {
+    "name": "飞跃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/af/Leap.png",
+    "localPath": "image/leap.png"
+  },
+  {
+    "name": "冷静头脑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e7/Coolheaded.png",
+    "localPath": "image/coolheaded.png"
+  },
+  {
+    "name": "全息影像",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c9/Hologram.png",
+    "localPath": "image/hologram.png"
+  },
+  {
+    "name": "引雷针",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f9/Lightning_rod.png",
+    "localPath": "image/lightning_rod.png"
+  },
+  {
+    "name": "暴风雨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bb/Tempest.png",
+    "localPath": "image/tempest.png"
+  },
+  {
+    "name": "冰寒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7b/Chill.png",
+    "localPath": "image/chill.png"
+  },
+  {
+    "name": "超频",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fb/Overclock.png",
+    "localPath": "image/overclock.png"
+  },
+  {
+    "name": "启动流程",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/44/Boot_sequence.png",
+    "localPath": "image/boot_sequence.png"
+  },
+  {
+    "name": "白噪声",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8b/White_noise.png",
+    "localPath": "image/white_noise.png"
+  },
+  {
+    "name": "玻璃工艺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/17/Glasswork.png",
+    "localPath": "image/glasswork.png"
+  },
+  {
+    "name": "混沌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8f/Chaos.png",
+    "localPath": "image/chaos.png"
+  },
+  {
+    "name": "聚变",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2d/Fusion.png",
+    "localPath": "image/fusion.png"
+  },
+  {
+    "name": "快速检索",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/55/Skim.png",
+    "localPath": "image/skim.png"
+  },
+  {
+    "name": "内存清理",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/68/Scavenge.png",
+    "localPath": "image/scavenge.png"
+  },
+  {
+    "name": "能量涌动",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/65/Energy_surge.png",
+    "localPath": "image/energy_surge.png"
+  },
+  {
+    "name": "漆黑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c0/Darkness.png",
+    "localPath": "image/darkness.png"
+  },
+  {
+    "name": "强撑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c8/Fight_through.png",
+    "localPath": "image/fight_through.png"
+  },
+  {
+    "name": "双倍能量",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/91/Double_energy.png",
+    "localPath": "image/double_energy.png"
+  },
+  {
+    "name": "同步",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bf/Synchronize.png",
+    "localPath": "image/synchronize.png"
+  },
+  {
+    "name": "压缩",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/da/Compact.png",
+    "localPath": "image/compact.png"
+  },
+  {
+    "name": "暗影之盾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d9/Shadow_shield.png",
+    "localPath": "image/shadow_shield.png"
+  },
+  {
+    "name": "冰川",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Glacier.png",
+    "localPath": "image/glacier.png"
+  },
+  {
+    "name": "休眠",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/96/Hibernate.png",
+    "localPath": "image/hibernate.png"
+  },
+  {
+    "name": "超临界态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/41/Supercritical.png",
+    "localPath": "image/supercritical.png"
+  },
+  {
+    "name": "多重释放",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b2/Multi_cast.png",
+    "localPath": "image/multi_cast.png"
+  },
+  {
+    "name": "模组改造",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/18/Modded.png",
+    "localPath": "image/modded.png"
+  },
+  {
+    "name": "重启",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/de/Reboot.png",
+    "localPath": "image/reboot.png"
+  },
+  {
+    "name": "信号增强",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a6/Signal_boost.png",
+    "localPath": "image/signal_boost.png"
+  },
+  {
+    "name": "遗传算法",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/23/Genetic_algorithm.png",
+    "localPath": "image/genetic_algorithm.png"
+  },
+  {
+    "name": "引火",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/49/Ignition.png",
+    "localPath": "image/ignition.png"
+  },
+  {
+    "name": "彩虹",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1e/Rainbow.png",
+    "localPath": "image/rainbow.png"
+  },
+  {
+    "name": "电流相生",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7e/Voltaic.png",
+    "localPath": "image/voltaic.png"
+  },
+  {
+    "name": "模仿学习",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9f/Imitation_learning.png",
+    "localPath": "image/imitation_learning.png"
+  },
+  {
+    "name": "四重释放",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Quadcast.png",
+    "localPath": "image/quadcast.png"
+  },
+  {
+    "name": "冰雹风暴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ea/Hailstorm.png",
+    "localPath": "image/hailstorm.png"
+  },
+  {
+    "name": "迭代",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/47/Iteration.png",
+    "localPath": "image/iteration.png"
+  },
+  {
+    "name": "扩容",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b5/Capacitor.png",
+    "localPath": "image/capacitor.png"
+  },
+  {
+    "name": "雷暴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Storm.png",
+    "localPath": "image/storm.png"
+  },
+  {
+    "name": "雷霆",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3d/Thunder.png",
+    "localPath": "image/thunder.png"
+  },
+  {
+    "name": "循环",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/21/Loop.png",
+    "localPath": "image/loop.png"
+  },
+  {
+    "name": "烟囱",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bd/Smokestack.png",
+    "localPath": "image/smokestack.png"
+  },
+  {
+    "name": "子程序",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ad/Subroutine.png",
+    "localPath": "image/subroutine.png"
+  },
+  {
+    "name": "暴涨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/08/Bulk_up.png",
+    "localPath": "image/bulk_up.png"
+  },
+  {
+    "name": "野性",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f5/Feral.png",
+    "localPath": "image/feral.png"
+  },
+  {
+    "name": "化废为宝",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2b/Trash_to_treasure.png",
+    "localPath": "image/trash_to_treasure.png"
+  },
+  {
+    "name": "机器学习",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fc/Machine_learning.png",
+    "localPath": "image/machine_learning.png"
+  },
+  {
+    "name": "冷却剂",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/40/Coolant.png",
+    "localPath": "image/coolant.png"
+  },
+  {
+    "name": "碎片整理",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/19/Defragment.png",
+    "localPath": "image/defragment.png"
+  },
+  {
+    "name": "旋转工艺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7b/Spinner.png",
+    "localPath": "image/spinner.png"
+  },
+  {
+    "name": "缓冲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5a/Buffer.png",
+    "localPath": "image/buffer.png"
+  },
+  {
+    "name": "吞噬暗影",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/82/Consuming_shadow.png",
+    "localPath": "image/consuming_shadow.png"
+  },
+  {
+    "name": "创造性AI",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b3/Creative_ai.png",
+    "localPath": "image/creative_ai.png"
+  },
+  {
+    "name": "回响形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a3/Echo_form.png",
+    "localPath": "image/echo_form.png"
+  },
+  {
+    "name": "一心化万",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/15/One_for_all.png",
+    "localPath": "image/one_for_all.png"
+  },
+  {
+    "name": "偏差认知",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/11/Biased_cognition.png",
+    "localPath": "image/biased_cognition.png"
+  },
+  {
+    "name": "陨星",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8a/Falling_star.png",
+    "localPath": "image/falling_star.png"
+  },
+  {
+    "name": "碰撞轨迹",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/70/Collision_course.png",
+    "localPath": "image/collision_course.png"
+  },
+  {
+    "name": "星界脉冲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a5/Astral_pulse.png",
+    "localPath": "image/astral_pulse.png"
+  },
+  {
+    "name": "光子切割",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Photon_cut.png",
+    "localPath": "image/photon_cut.png"
+  },
+  {
+    "name": "太阳打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cb/Solar_strike.png",
+    "localPath": "image/solar_strike.png"
+  },
+  {
+    "name": "下砸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c5/Crush_under.png",
+    "localPath": "image/crush_under.png"
+  },
+  {
+    "name": "新月长矛",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6b/Crescent_spear.png",
+    "localPath": "image/crescent_spear.png"
+  },
+  {
+    "name": "引导之星",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/72/Guiding_star.png",
+    "localPath": "image/guiding_star.png"
+  },
+  {
+    "name": "战火铸就",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e6/Wrought_in_war.png",
+    "localPath": "image/wrought_in_war.png"
+  },
+  {
+    "name": "天穹之力",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/25/Celestial_might.png",
+    "localPath": "image/celestial_might.png"
+  },
+  {
+    "name": "辐射",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/73/Radiate.png",
+    "localPath": "image/radiate.png"
+  },
+  {
+    "name": "伽马爆破",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/de/Gamma_blast.png",
+    "localPath": "image/gamma_blast.png"
+  },
+  {
+    "name": "星尘",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/65/Stardust.png",
+    "localPath": "image/stardust.png"
+  },
+  {
+    "name": "月面射击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/25/Lunar_blast.png",
+    "localPath": "image/lunar_blast.png"
+  },
+  {
+    "name": "超质量体",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9b/Supermassive.png",
+    "localPath": "image/supermassive.png"
+  },
+  {
+    "name": "明耀打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7b/Shining_strike.png",
+    "localPath": "image/shining_strike.png"
+  },
+  {
+    "name": "王者之拳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6f/Kingly_punch.png",
+    "localPath": "image/kingly_punch.png"
+  },
+  {
+    "name": "葬送",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5b/Devastate.png",
+    "localPath": "image/devastate.png"
+  },
+  {
+    "name": "霸权",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d9/Hegemony.png",
+    "localPath": "image/hegemony.png"
+  },
+  {
+    "name": "决胜一击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/78/Knockout_blow.png",
+    "localPath": "image/knockout_blow.png"
+  },
+  {
+    "name": "王者之踢",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9a/Kingly_kick.png",
+    "localPath": "image/kingly_kick.png"
+  },
+  {
+    "name": "彗星",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/99/Comet.png",
+    "localPath": "image/comet.png"
+  },
+  {
+    "name": "如此甚好",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a1/Make_it_so.png",
+    "localPath": "image/make_it_so.png"
+  },
+  {
+    "name": "天际钻头",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e5/Heavenly_drill.png",
+    "localPath": "image/heavenly_drill.png"
+  },
+  {
+    "name": "锻打成型",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/18/Beat_into_shape.png",
+    "localPath": "image/beat_into_shape.png"
+  },
+  {
+    "name": "迫降",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/72/Crash_landing.png",
+    "localPath": "image/crash_landing.png"
+  },
+  {
+    "name": "星灭",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cd/Dying_star.png",
+    "localPath": "image/dying_star.png"
+  },
+  {
+    "name": "传承之锤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/25/Heirloom_hammer.png",
+    "localPath": "image/heirloom_hammer.png"
+  },
+  {
+    "name": "七星",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5a/Seven_stars.png",
+    "localPath": "image/seven_stars.png"
+  },
+  {
+    "name": "轰击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c0/Bombardment.png",
+    "localPath": "image/bombardment.png"
+  },
+  {
+    "name": "流星雨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/15/Meteor_shower.png",
+    "localPath": "image/meteor_shower.png"
+  },
+  {
+    "name": "崇拜",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b0/Venerate.png",
+    "localPath": "image/venerate.png"
+  },
+  {
+    "name": "何人僭越",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e1/Know_thy_place.png",
+    "localPath": "image/know_thy_place.png"
+  },
+  {
+    "name": "群星斗篷",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/eb/Cloak_of_stars.png",
+    "localPath": "image/cloak_of_stars.png"
+  },
+  {
+    "name": "淬炼刀刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4f/Refine_blade.png",
+    "localPath": "image/refine_blade.png"
+  },
+  {
+    "name": "辉光",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ab/Glow.png",
+    "localPath": "image/glow.png"
+  },
+  {
+    "name": "收集光辉",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/59/Gather_light.png",
+    "localPath": "image/gather_light.png"
+  },
+  {
+    "name": "下去！",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cd/Begone.png",
+    "localPath": "image/begone.png"
+  },
+  {
+    "name": "星星点点",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b8/Patter.png",
+    "localPath": "image/patter.png"
+  },
+  {
+    "name": "隐秘藏品",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1e/Hidden_cache.png",
+    "localPath": "image/hidden_cache.png"
+  },
+  {
+    "name": "宇宙冷漠",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d9/Cosmic_indifference.png",
+    "localPath": "image/cosmic_indifference.png"
+  },
+  {
+    "name": "战利品",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/db/Spoils_of_battle.png",
+    "localPath": "image/spoils_of_battle.png"
+  },
+  {
+    "name": "流光溢彩",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ed/Glitterstream.png",
+    "localPath": "image/glitterstream.png"
+  },
+  {
+    "name": "独白",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c4/Monologue.png",
+    "localPath": "image/monologue.png"
+  },
+  {
+    "name": "慷慨捐助",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Largesse.png",
+    "localPath": "image/largesse.png"
+  },
+  {
+    "name": "类星体",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3e/Quasar.png",
+    "localPath": "image/quasar.png"
+  },
+  {
+    "name": "粒子墙",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/25/Particle_wall.png",
+    "localPath": "image/particle_wall.png"
+  },
+  {
+    "name": "胜券在王",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7b/Royal_gamble.png",
+    "localPath": "image/royal_gamble.png"
+  },
+  {
+    "name": "星位序列",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/74/Alignment.png",
+    "localPath": "image/alignment.png"
+  },
+  {
+    "name": "冲锋！！",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/db/Charge.png",
+    "localPath": "image/charge.png"
+  },
+  {
+    "name": "倒映",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d0/Reflect.png",
+    "localPath": "image/reflect.png"
+  },
+  {
+    "name": "地形改造",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Terraforming.png",
+    "localPath": "image/terraforming.png"
+  },
+  {
+    "name": "共鸣",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c4/Resonance.png",
+    "localPath": "image/resonance.png"
+  },
+  {
+    "name": "汇流",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d0/Convergence.png",
+    "localPath": "image/convergence.png"
+  },
+  {
+    "name": "君权自授",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/63/Manifest_authority.png",
+    "localPath": "image/manifest_authority.png"
+  },
+  {
+    "name": "微光",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c5/Glimmer.png",
+    "localPath": "image/glimmer.png"
+  },
+  {
+    "name": "征服者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bb/Conqueror.png",
+    "localPath": "image/conqueror.png"
+  },
+  {
+    "name": "征召上前",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/22/Summon_forth.png",
+    "localPath": "image/summon_forth.png"
+  },
+  {
+    "name": "预言",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b4/Prophesize.png",
+    "localPath": "image/prophesize.png"
+  },
+  {
+    "name": "铸墙",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/82/Bulwark.png",
+    "localPath": "image/bulwark.png"
+  },
+  {
+    "name": "筹划",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bc/Plot.png",
+    "localPath": "image/plot.png"
+  },
+  {
+    "name": "群星荟萃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/69/Constellation.png",
+    "localPath": "image/constellation.png"
+  },
+  {
+    "name": "大爆炸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c2/Big_bang.png",
+    "localPath": "image/big_bang.png"
+  },
+  {
+    "name": "抉择，抉择",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/68/Decisions_decisions.png",
+    "localPath": "image/decisions_decisions.png"
+  },
+  {
+    "name": "既定事项",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c2/Foregone_conclusion.png",
+    "localPath": "image/foregone_conclusion.png"
+  },
+  {
+    "name": "所向无敌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b8/I_am_invincible.png",
+    "localPath": "image/i_am_invincible.png"
+  },
+  {
+    "name": "新生之喜",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4d/Bundle_of_joy.png",
+    "localPath": "image/bundle_of_joy.png"
+  },
+  {
+    "name": "铸剑者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4d/The_smith.png",
+    "localPath": "image/the_smith.png"
+  },
+  {
+    "name": "护驾！！！",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/59/Guards.png",
+    "localPath": "image/guards.png"
+  },
+  {
+    "name": "指导",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3b/Tutor.png",
+    "localPath": "image/tutor.png"
+  },
+  {
+    "name": "暗淡蓝点",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/33/Pale_blue_dot.png",
+    "localPath": "image/pale_blue_dot.png"
+  },
+  {
+    "name": "创世之柱",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/dc/Pillar_of_creation.png",
+    "localPath": "image/pillar_of_creation.png"
+  },
+  {
+    "name": "黑洞",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9b/Black_hole.png",
+    "localPath": "image/black_hole.png"
+  },
+  {
+    "name": "群星之子",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3e/Child_of_the_stars.png",
+    "localPath": "image/child_of_the_stars.png"
+  },
+  {
+    "name": "熔炉",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0f/Furnace.png",
+    "localPath": "image/furnace.png"
+  },
+  {
+    "name": "招架",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/44/Parry.png",
+    "localPath": "image/parry.png"
+  },
+  {
+    "name": "光谱偏移",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7d/Spectrum_shift.png",
+    "localPath": "image/spectrum_shift.png"
+  },
+  {
+    "name": "环绕轨道",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Orbit.png",
+    "localPath": "image/orbit.png"
+  },
+  {
+    "name": "暴政",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1b/Tyranny.png",
+    "localPath": "image/tyranny.png"
+  },
+  {
+    "name": "王国资产",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/86/Royalties.png",
+    "localPath": "image/royalties.png"
+  },
+  {
+    "name": "武器库",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/22/Arsenal.png",
+    "localPath": "image/arsenal.png"
+  },
+  {
+    "name": "中子护盾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/72/Neutron_aegis.png",
+    "localPath": "image/neutron_aegis.png"
+  },
+  {
+    "name": "追踪之刃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e4/Seeking_edge.png",
+    "localPath": "image/seeking_edge.png"
+  },
+  {
+    "name": "创世纪",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/74/Genesis.png",
+    "localPath": "image/genesis.png"
+  },
+  {
+    "name": "锤子时间",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/55/Hammer_time.png",
+    "localPath": "image/hammer_time.png"
+  },
+  {
+    "name": "剑圣",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/08/Sword_sage.png",
+    "localPath": "image/sword_sage.png"
+  },
+  {
+    "name": "王之凝视",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/33/Monarchs_gaze.png",
+    "localPath": "image/monarchs_gaze.png"
+  },
+  {
+    "name": "虚空形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f7/Void_form.png",
+    "localPath": "image/void_form.png"
+  },
+  {
+    "name": "封印王座",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9c/The_sealed_throne.png",
+    "localPath": "image/the_sealed_throne.png"
+  },
+  {
+    "name": "出击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/49/Unleash.png",
+    "localPath": "image/unleash.png"
+  },
+  {
+    "name": "戳击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/27/Poke.png",
+    "localPath": "image/poke.png"
+  },
+  {
+    "name": "剥夺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bc/Reave.png",
+    "localPath": "image/reave.png"
+  },
+  {
+    "name": "播种",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d6/Sow.png",
+    "localPath": "image/sow.png"
+  },
+  {
+    "name": "玷污",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f9/Defile.png",
+    "localPath": "image/defile.png"
+  },
+  {
+    "name": "雕琢打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5a/Sculpting_strike.png",
+    "localPath": "image/sculpting_strike.png"
+  },
+  {
+    "name": "坟冢爆射",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/11/Graveblast.png",
+    "localPath": "image/graveblast.png"
+  },
+  {
+    "name": "荒疫打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9c/Blight_strike.png",
+    "localPath": "image/blight_strike.png"
+  },
+  {
+    "name": "恐惧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e6/Fear.png",
+    "localPath": "image/fear.png"
+  },
+  {
+    "name": "能量汲取",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/56/Drain_power.png",
+    "localPath": "image/drain_power.png"
+  },
+  {
+    "name": "响指",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/52/Snap.png",
+    "localPath": "image/snap.png"
+  },
+  {
+    "name": "重压",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e5/Flatten.png",
+    "localPath": "image/flatten.png"
+  },
+  {
+    "name": "收割",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Reap.png",
+    "localPath": "image/reap.png"
+  },
+  {
+    "name": "得力助手",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/14/Right_hand_hand.png",
+    "localPath": "image/right_hand_hand.png"
+  },
+  {
+    "name": "取回",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1a/Fetch.png",
+    "localPath": "image/fetch.png"
+  },
+  {
+    "name": "刺破帷幕",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fd/Veilpiercer.png",
+    "localPath": "image/veilpiercer.png"
+  },
+  {
+    "name": "摧残",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5b/Debilitate.png",
+    "localPath": "image/debilitate.png"
+  },
+  {
+    "name": "紧追不放",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0c/Sic_em.png",
+    "localPath": "image/sic_em.png"
+  },
+  {
+    "name": "猛晃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d3/Rattle.png",
+    "localPath": "image/rattle.png"
+  },
+  {
+    "name": "死亡行军",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ab/Death_march.png",
+    "localPath": "image/death_march.png"
+  },
+  {
+    "name": "碎骨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8a/Bone_shards.png",
+    "localPath": "image/bone_shards.png"
+  },
+  {
+    "name": "亡魂牵引",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7e/Pull_from_below.png",
+    "localPath": "image/pull_from_below.png"
+  },
+  {
+    "name": "击掌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1a/High_five.png",
+    "localPath": "image/high_five.png"
+  },
+  {
+    "name": "切断",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Severance.png",
+    "localPath": "image/severance.png"
+  },
+  {
+    "name": "埋葬",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ea/Bury.png",
+    "localPath": "image/bury.png"
+  },
+  {
+    "name": "根除",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/70/Eradicate.png",
+    "localPath": "image/eradicate.png"
+  },
+  {
+    "name": "苦难",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cc/Misery.png",
+    "localPath": "image/misery.png"
+  },
+  {
+    "name": "吊杀",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2b/Hang.png",
+    "localPath": "image/hang.png"
+  },
+  {
+    "name": "灵魂风暴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/71/Soul_storm.png",
+    "localPath": "image/soul_storm.png"
+  },
+  {
+    "name": "大限已至",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/36/Times_up.png",
+    "localPath": "image/times_up.png"
+  },
+  {
+    "name": "巨镰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bc/The_scythe.png",
+    "localPath": "image/the_scythe.png"
+  },
+  {
+    "name": "榨取",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d1/Squeeze.png",
+    "localPath": "image/squeeze.png"
+  },
+  {
+    "name": "女妖之嚎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/06/Banshees_cry.png",
+    "localPath": "image/banshees_cry.png"
+  },
+  {
+    "name": "守护者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cc/Protector.png",
+    "localPath": "image/protector.png"
+  },
+  {
+    "name": "护卫",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/87/Bodyguard.png",
+    "localPath": "image/bodyguard.png"
+  },
+  {
+    "name": "鬼火",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e7/Wisp.png",
+    "localPath": "image/wisp.png"
+  },
+  {
+    "name": "鞭打",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/58/Scourge.png",
+    "localPath": "image/scourge.png"
+  },
+  {
+    "name": "负能量脉冲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/aa/Negative_pulse.png",
+    "localPath": "image/negative_pulse.png"
+  },
+  {
+    "name": "唤起",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6f/Invoke.png",
+    "localPath": "image/invoke.png"
+  },
+  {
+    "name": "来生",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Afterlife.png",
+    "localPath": "image/afterlife.png"
+  },
+  {
+    "name": "守墓人",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Grave_warden.png",
+    "localPath": "image/grave_warden.png"
+  },
+  {
+    "name": "违逆",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fe/Defy.png",
+    "localPath": "image/defy.png"
+  },
+  {
+    "name": "吸引仇恨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b7/Pull_aggro.png",
+    "localPath": "image/pull_aggro.png"
+  },
+  {
+    "name": "挽歌",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/25/Dirge.png",
+    "localPath": "image/dirge.png"
+  },
+  {
+    "name": "捕捉灵魂",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f8/Capture_spirit.png",
+    "localPath": "image/capture_spirit.png"
+  },
+  {
+    "name": "腐败",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/14/Putrefy.png",
+    "localPath": "image/putrefy.png"
+  },
+  {
+    "name": "洁净",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/95/Cleanse.png",
+    "localPath": "image/cleanse.png"
+  },
+  {
+    "name": "领会",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/01/Parse.png",
+    "localPath": "image/parse.png"
+  },
+  {
+    "name": "清淤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/ca/Dredge.png",
+    "localPath": "image/dredge.png"
+  },
+  {
+    "name": "弱化之触",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/15/Enfeebling_touch.png",
+    "localPath": "image/enfeebling_touch.png"
+  },
+  {
+    "name": "死亡之门",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f0/Deaths_door.png",
+    "localPath": "image/deaths_door.png"
+  },
+  {
+    "name": "无处可逃",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/ff/No_escape.png",
+    "localPath": "image/no_escape.png"
+  },
+  {
+    "name": "预借时间",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fc/Borrowed_time.png",
+    "localPath": "image/borrowed_time.png"
+  },
+  {
+    "name": "增生",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/61/Spur.png",
+    "localPath": "image/spur.png"
+  },
+  {
+    "name": "骸骨军团",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fb/Legion_of_bone.png",
+    "localPath": "image/legion_of_bone.png"
+  },
+  {
+    "name": "死亡使者",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8f/Deathbringer.png",
+    "localPath": "image/deathbringer.png"
+  },
+  {
+    "name": "拖延",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/53/Delay.png",
+    "localPath": "image/delay.png"
+  },
+  {
+    "name": "忧郁",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/45/Melancholy.png",
+    "localPath": "image/melancholy.png"
+  },
+  {
+    "name": "幽冥之界",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Underworld.png",
+    "localPath": "image/underworld.png"
+  },
+  {
+    "name": "不死",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/15/Undeath.png",
+    "localPath": "image/undeath.png"
+  },
+  {
+    "name": "命运同担",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c6/Shared_fate.png",
+    "localPath": "image/shared_fate.png"
+  },
+  {
+    "name": "湮灭",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/03/Oblivion.png",
+    "localPath": "image/oblivion.png"
+  },
+  {
+    "name": "彼岸一瞥",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f5/Glimpse_beyond.png",
+    "localPath": "image/glimpse_beyond.png"
+  },
+  {
+    "name": "降灵",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/58/Seance.png",
+    "localPath": "image/seance.png"
+  },
+  {
+    "name": "牺牲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/18/Sacrifice.png",
+    "localPath": "image/sacrifice.png"
+  },
+  {
+    "name": "重构",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d2/Transfigure.png",
+    "localPath": "image/transfigure.png"
+  },
+  {
+    "name": "幻景",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1d/Eidolon.png",
+    "localPath": "image/eidolon.png"
+  },
+  {
+    "name": "末日降临",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/93/End_of_days.png",
+    "localPath": "image/end_of_days.png"
+  },
+  {
+    "name": "死者苏生",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1d/Reanimate.png",
+    "localPath": "image/reanimate.png"
+  },
+  {
+    "name": "倒数计时",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/05/Countdown.png",
+    "localPath": "image/countdown.png"
+  },
+  {
+    "name": "厄运之衣",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9f/Shroud.png",
+    "localPath": "image/shroud.png"
+  },
+  {
+    "name": "钙化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/ba/Calcify.png",
+    "localPath": "image/calcify.png"
+  },
+  {
+    "name": "纠缠",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/37/Haunt.png",
+    "localPath": "image/haunt.png"
+  },
+  {
+    "name": "书页风暴",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d6/Pagestorm.png",
+    "localPath": "image/pagestorm.png"
+  },
+  {
+    "name": "死亡之舞",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7e/Danse_macabre.png",
+    "localPath": "image/danse_macabre.png"
+  },
+  {
+    "name": "友谊",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e4/Friendship.png",
+    "localPath": "image/friendship.png"
+  },
+  {
+    "name": "致死性",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2d/Lethality.png",
+    "localPath": "image/lethality.png"
+  },
+  {
+    "name": "血肉戏法",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/38/Sleight_of_flesh.png",
+    "localPath": "image/sleight_of_flesh.png"
+  },
+  {
+    "name": "灵魂绑定",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/68/Soulbound.png",
+    "localPath": "image/soulbound.png"
+  },
+  {
+    "name": "精神过载",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/79/Neurosurge.png",
+    "localPath": "image/neurosurge.png"
+  },
+  {
+    "name": "灰烬之灵",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/10/Spirit_of_ash.png",
+    "localPath": "image/spirit_of_ash.png"
+  },
+  {
+    "name": "吞噬生命",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9c/Devour_life.png",
+    "localPath": "image/devour_life.png"
+  },
+  {
+    "name": "虚空之唤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cc/Call_of_the_void.png",
+    "localPath": "image/call_of_the_void.png"
+  },
+  {
+    "name": "哨卫模式",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/28/Sentry_mode.png",
+    "localPath": "image/sentry_mode.png"
+  },
+  {
+    "name": "亡灵精通",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/62/Necro_mastery.png",
+    "localPath": "image/necro_mastery.png"
+  },
+  {
+    "name": "领域",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/dc/Demesne.png",
+    "localPath": "image/demesne.png"
+  },
+  {
+    "name": "死神形态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c1/Reaper_form.png",
+    "localPath": "image/reaper_form.png"
+  },
+  {
+    "name": "不谐合曲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f1/Cacophony.png",
+    "localPath": "image/cacophony.png"
+  },
+  {
+    "name": "禁忌魔典",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5c/Forbidden_grimoire.png",
+    "localPath": "image/forbidden_grimoire.png"
+  },
+  {
+    "name": "连射",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/5d/Volley.png",
+    "localPath": "image/volley.png"
+  },
+  {
+    "name": "亮剑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f1/Flash_of_steel.png",
+    "localPath": "image/flash_of_steel.png"
+  },
+  {
+    "name": "闪亮登场",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/0f/Dramatic_entrance.png",
+    "localPath": "image/dramatic_entrance.png"
+  },
+  {
+    "name": "万向斩",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/58/Omnislice.png",
+    "localPath": "image/omnislice.png"
+  },
+  {
+    "name": "究极打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/56/Ultimate_strike.png",
+    "localPath": "image/ultimate_strike.png"
+  },
+  {
+    "name": "拳斗",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f6/Fisticuffs.png",
+    "localPath": "image/fisticuffs.png"
+  },
+  {
+    "name": "群起攻之",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/68/Gang_up.png",
+    "localPath": "image/gang_up.png"
+  },
+  {
+    "name": "探寻打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6e/Seeker_strike.png",
+    "localPath": "image/seeker_strike.png"
+  },
+  {
+    "name": "无休手斧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d5/Thrumming_hatchet.png",
+    "localPath": "image/thrumming_hatchet.png"
+  },
+  {
+    "name": "心灵震慑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2b/Mind_blast.png",
+    "localPath": "image/mind_blast.png"
+  },
+  {
+    "name": "双打组合",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c9/Tag_team.png",
+    "localPath": "image/tag_team.png"
+  },
+  {
+    "name": "魔球",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/19/The_ball.png",
+    "localPath": "image/the_ball.png"
+  },
+  {
+    "name": "流星锤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/ca/Bolas.png",
+    "localPath": "image/bolas.png"
+  },
+  {
+    "name": "箭雨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/df/Salvo.png",
+    "localPath": "image/salvo.png"
+  },
+  {
+    "name": "金斧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/71/Gold_axe.png",
+    "localPath": "image/gold_axe.png"
+  },
+  {
+    "name": "撕碎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b8/Rend.png",
+    "localPath": "image/rend.png"
+  },
+  {
+    "name": "贪婪之手",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/56/Hand_of_greed.png",
+    "localPath": "image/hand_of_greed.png"
+  },
+  {
+    "name": "大奖",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/10/Jackpot.png",
+    "localPath": "image/jackpot.png"
+  },
+  {
+    "name": "击倒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/36/Knockdown.png",
+    "localPath": "image/knockdown.png"
+  },
+  {
+    "name": "黑暗镣铐",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/77/Dark_shackles.png",
+    "localPath": "image/dark_shackles.png"
+  },
+  {
+    "name": "花样百出",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/12/Jack_of_all_trades.png",
+    "localPath": "image/jack_of_all_trades.png"
+  },
+  {
+    "name": "急躁",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d5/Impatience.png",
+    "localPath": "image/impatience.png"
+  },
+  {
+    "name": "净化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Purity.png",
+    "localPath": "image/purity.png"
+  },
+  {
+    "name": "妙计",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/67/Finesse.png",
+    "localPath": "image/finesse.png"
+  },
+  {
+    "name": "深谋远虑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/46/Thinking_ahead.png",
+    "localPath": "image/thinking_ahead.png"
+  },
+  {
+    "name": "生产制造",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ad/Production.png",
+    "localPath": "image/production.png"
+  },
+  {
+    "name": "相信着你",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/28/Believe_in_you.png",
+    "localPath": "image/believe_in_you.png"
+  },
+  {
+    "name": "心神不宁",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/34/Restlessness.png",
+    "localPath": "image/restlessness.png"
+  },
+  {
+    "name": "延伸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bb/Prolong.png",
+    "localPath": "image/prolong.png"
+  },
+  {
+    "name": "应急按钮",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/43/Panic_button.png",
+    "localPath": "image/panic_button.png"
+  },
+  {
+    "name": "抱团",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a9/Huddle_up.png",
+    "localPath": "image/huddle_up.png"
+  },
+  {
+    "name": "发现",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4c/Discovery.png",
+    "localPath": "image/discovery.png"
+  },
+  {
+    "name": "飞溅",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/01/Splash.png",
+    "localPath": "image/splash.png"
+  },
+  {
+    "name": "究极防御",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c0/Ultimate_defend.png",
+    "localPath": "image/ultimate_defend.png"
+  },
+  {
+    "name": "拦截",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2f/Intercept.png",
+    "localPath": "image/intercept.png"
+  },
+  {
+    "name": "托举",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e8/Lift.png",
+    "localPath": "image/lift.png"
+  },
+  {
+    "name": "协同配合",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/26/Coordinate.png",
+    "localPath": "image/coordinate.png"
+  },
+  {
+    "name": "横祸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4a/Catastrophe.png",
+    "localPath": "image/catastrophe.png"
+  },
+  {
+    "name": "均衡",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/81/Equilibrium.png",
+    "localPath": "image/equilibrium.png"
+  },
+  {
+    "name": "炸弹",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a4/The_bomb.png",
+    "localPath": "image/the_bomb.png"
+  },
+  {
+    "name": "震荡波",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/65/Shockwave.png",
+    "localPath": "image/shockwave.png"
+  },
+  {
+    "name": "孤注一掷",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6b/The_gambit.png",
+    "localPath": "image/the_gambit.png"
+  },
+  {
+    "name": "秘密技法",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4e/Secret_technique.png",
+    "localPath": "image/secret_technique.png"
+  },
+  {
+    "name": "秘密武器",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a8/Secret_weapon.png",
+    "localPath": "image/secret_weapon.png"
+  },
+  {
+    "name": "战略大师",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7c/Master_of_strategy.png",
+    "localPath": "image/master_of_strategy.png"
+  },
+  {
+    "name": "炼制药水",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7d/Alchemize.png",
+    "localPath": "image/alchemize.png"
+  },
+  {
+    "name": "潦草急就",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/df/Scrawl.png",
+    "localPath": "image/scrawl.png"
+  },
+  {
+    "name": "拟态",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a8/Mimic.png",
+    "localPath": "image/mimic.png"
+  },
+  {
+    "name": "天选",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Anointed.png",
+    "localPath": "image/anointed.png"
+  },
+  {
+    "name": "未掘宝石",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Hidden_gem.png",
+    "localPath": "image/hidden_gem.png"
+  },
+  {
+    "name": "集结",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Rally.png",
+    "localPath": "image/rally.png"
+  },
+  {
+    "name": "狠揍",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a5/Beat_down.png",
+    "localPath": "image/beat_down.png"
+  },
+  {
+    "name": "神气制胜",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/19/Panache.png",
+    "localPath": "image/panache.png"
+  },
+  {
+    "name": "非凡技艺",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e6/Prowess.png",
+    "localPath": "image/prowess.png"
+  },
+  {
+    "name": "计策",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Stratagem.png",
+    "localPath": "image/stratagem.png"
+  },
+  {
+    "name": "勒紧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d0/Fasten.png",
+    "localPath": "image/fasten.png"
+  },
+  {
+    "name": "准备时间",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e8/Prep_time.png",
+    "localPath": "image/prep_time.png"
+  },
+  {
+    "name": "自动化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d1/Automation.png",
+    "localPath": "image/automation.png"
+  },
+  {
+    "name": "怀旧",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/18/Nostalgia.png",
+    "localPath": "image/nostalgia.png"
+  },
+  {
+    "name": "熵",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1e/Entropy.png",
+    "localPath": "image/entropy.png"
+  },
+  {
+    "name": "希望灯塔",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c3/Beacon_of_hope.png",
+    "localPath": "image/beacon_of_hope.png"
+  },
+  {
+    "name": "乱战",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/dd/Mayhem.png",
+    "localPath": "image/mayhem.png"
+  },
+  {
+    "name": "滚石",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c7/Rolling_boulder.png",
+    "localPath": "image/rolling_boulder.png"
+  },
+  {
+    "name": "劫难",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/13/Calamity_power.png",
+    "localPath": "image/calamity.png"
+  },
+  {
+    "name": "永恒铠甲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/12/Eternal_armor.png",
+    "localPath": "image/eternal_armor.png"
+  },
+  {
+    "name": "涅奥之怒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/01/Neows_fury.png",
+    "localPath": "image/neows_fury.png"
+  },
+  {
+    "name": "撕咬",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f4/Maul.png",
+    "localPath": "image/maul.png"
+  },
+  {
+    "name": "吹哨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/18/Whistle.png",
+    "localPath": "image/whistle.png"
+  },
+  {
+    "name": "许愿",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f3/Wish.png",
+    "localPath": "image/wish.png"
+  },
+  {
+    "name": "至亮之焰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/20/Brightest_flame.png",
+    "localPath": "image/brightest_flame.png"
+  },
+  {
+    "name": "灵体",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/f5/Apparition.png",
+    "localPath": "image/apparition.png"
+  },
+  {
+    "name": "神化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/93/Apotheosis.png",
+    "localPath": "image/apotheosis.png"
+  },
+  {
+    "name": "放松",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c9/Relax.png",
+    "localPath": "image/relax.png"
+  },
+  {
+    "name": "富足",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6a/Abundance.png",
+    "localPath": "image/abundance.png"
+  },
+  {
+    "name": "毒素",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/96/Toxic.png",
+    "localPath": "image/toxic.png"
+  },
+  {
+    "name": "呼唤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ee/Beckon.png",
+    "localPath": "image/beckon.png"
+  },
+  {
+    "name": "狂乱逃离",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6e/Frantic_escape.png",
+    "localPath": "image/frantic_escape.png"
+  },
+  {
+    "name": "黏液",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Slimed.png",
+    "localPath": "image/slimed.png"
+  },
+  {
+    "name": "碎屑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fd/Debris.png",
+    "localPath": "image/debris.png"
+  },
+  {
+    "name": "凋萎",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/aa/Wither.png",
+    "localPath": "image/wither.png"
+  },
+  {
+    "name": "感染",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/19/Infection.png",
+    "localPath": "image/infection.png"
+  },
+  {
+    "name": "煤灰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/10/Soot.png",
+    "localPath": "image/soot.png"
+  },
+  {
+    "name": "伤口",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a4/Wound.png",
+    "localPath": "image/wound.png"
+  },
+  {
+    "name": "虚空",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/46/Void.png",
+    "localPath": "image/void.png"
+  },
+  {
+    "name": "晕眩",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/ad/Dazed.png",
+    "localPath": "image/dazed.png"
+  },
+  {
+    "name": "灼伤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bf/Burn.png",
+    "localPath": "image/burn.png"
+  },
+  {
+    "name": "懒惰",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Sloth.png",
+    "localPath": "image/sloth.png"
+  },
+  {
+    "name": "衰朽",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/eb/Waste_away.png",
+    "localPath": "image/waste_away.png"
+  },
+  {
+    "name": "瓦解",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/7c/Disintegration.png",
+    "localPath": "image/disintegration.png"
+  },
+  {
+    "name": "心灵腐化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/72/Mind_rot.png",
+    "localPath": "image/mind_rot.png"
+  },
+  {
+    "name": "孢子心灵",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/36/Spore_mind.png",
+    "localPath": "image/spore_mind.png"
+  },
+  {
+    "name": "执迷",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a9/Enthralled.png",
+    "localPath": "image/enthralled.png"
+  },
+  {
+    "name": "笨拙",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/8e/Clumsy.png",
+    "localPath": "image/clumsy.png"
+  },
+  {
+    "name": "凡庸",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a5/Normality.png",
+    "localPath": "image/normality.png"
+  },
+  {
+    "name": "腐朽",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/93/Decay.png",
+    "localPath": "image/decay.png"
+  },
+  {
+    "name": "悔恨",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/27/Regret.png",
+    "localPath": "image/regret.png"
+  },
+  {
+    "name": "进阶之灾",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/71/Ascenders_bane.png",
+    "localPath": "image/ascenders_bane.png"
+  },
+  {
+    "name": "苦恼",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6e/Writhe.png",
+    "localPath": "image/writhe.png"
+  },
+  {
+    "name": "愧疚",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/cd/Guilty.png",
+    "localPath": "image/guilty.png"
+  },
+  {
+    "name": "铃铛的诅咒",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d5/Curse_of_the_bell.png",
+    "localPath": "image/curse_of_the_bell.png"
+  },
+  {
+    "name": "霉运",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3a/Bad_luck.png",
+    "localPath": "image/bad_luck.png"
+  },
+  {
+    "name": "受伤",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4e/Injury.png",
+    "localPath": "image/injury.png"
+  },
+  {
+    "name": "睡眠不佳",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/3c/Poor_sleep.png",
+    "localPath": "image/poor_sleep.png"
+  },
+  {
+    "name": "贪婪",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/04/Greed.png",
+    "localPath": "image/greed.png"
+  },
+  {
+    "name": "羞耻",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/0/07/Shame.png",
+    "localPath": "image/shame.png"
+  },
+  {
+    "name": "疑虑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6a/Doubt.png",
+    "localPath": "image/doubt.png"
+  },
+  {
+    "name": "愚行",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/2b/Folly.png",
+    "localPath": "image/folly.png"
+  },
+  {
+    "name": "债务",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/81/Debt.png",
+    "localPath": "image/debt.png"
+  },
+  {
+    "name": "交锋",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fb/Clash.png",
+    "localPath": "image/clash.png"
+  },
+  {
+    "name": "双持",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/24/Dual_wield.png",
+    "localPath": "image/dual_wield.png"
+  },
+  {
+    "name": "巩固",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a2/Entrench.png",
+    "localPath": "image/entrench.png"
+  },
+  {
+    "name": "抢占先机",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/ff/Outmaneuver.png",
+    "localPath": "image/outmaneuver.png"
+  },
+  {
+    "name": "声东击西",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e3/Distraction.png",
+    "localPath": "image/distraction.png"
+  },
+  {
+    "name": "铁蒺藜",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/31/Caltrops.png",
+    "localPath": "image/caltrops.png"
+  },
+  {
+    "name": "弹回",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d0/Rebound.png",
+    "localPath": "image/rebound.png"
+  },
+  {
+    "name": "狂乱撕扯",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/ef/Rip_and_tear.png",
+    "localPath": "image/rip_and_tear.png"
+  },
+  {
+    "name": "堆栈",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9f/Stack.png",
+    "localPath": "image/stack.png"
+  },
+  {
+    "name": "你好世界",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/5/54/Hello_world.png",
+    "localPath": "image/hello_world.png"
+  },
+  {
+    "name": "异鸟扑击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/6f/Byrd_swoop.png",
+    "localPath": "image/byrd_swoop.png"
+  },
+  {
+    "name": "疯狂科学",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/bf/Mad_science-sapping.png",
+    "localPath": "image/mad_science-sapping.png"
+  },
+  {
+    "name": "杀灭",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/9d/Exterminate.png",
+    "localPath": "image/exterminate.png"
+  },
+  {
+    "name": "压扁",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/2/23/Squash.png",
+    "localPath": "image/squash.png"
+  },
+  {
+    "name": "啄击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/8/83/Peck.png",
+    "localPath": "image/peck.png"
+  },
+  {
+    "name": "疯狂进食",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/a/a1/Feeding_frenzy.png",
+    "localPath": "image/feeding_frenzy.png"
+  },
+  {
+    "name": "开悟",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/f/fa/Enlightenment.png",
+    "localPath": "image/enlightenment.png"
+  },
+  {
+    "name": "坚韧之环",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/98/Toric_toughness.png",
+    "localPath": "image/toric_toughness.png"
+  },
+  {
+    "name": "羽化",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/4e/Metamorphosis.png",
+    "localPath": "image/metamorphosis.png"
+  },
+  {
+    "name": "藏宝图",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/dd/Spoils_map.png",
+    "localPath": "image/spoils_map.png"
+  },
+  {
+    "name": "灯火钥匙",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/3/39/Lantern_key.png",
+    "localPath": "image/lantern_key.png"
+  },
+  {
+    "name": "多尼斯异鸟蛋",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/96/Byrdonis_egg.png",
+    "localPath": "image/byrdonis_egg.png"
+  },
+  {
+    "name": "探寻",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/9/90/Dowsing.png",
+    "localPath": "image/dowsing.png"
+  },
+  {
+    "name": "仆从打击",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/dd/Minion_strike.png",
+    "localPath": "image/minion_strike.png"
+  },
+  {
+    "name": "仆从俯冲",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/7/78/Minion_dive_bomb.png",
+    "localPath": "image/minion_dive_bomb.png"
+  },
+  {
+    "name": "扫荡凝视",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/e/e7/Sweeping_gaze.png",
+    "localPath": "image/sweeping_gaze.png"
+  },
+  {
+    "name": "小刀",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/b/b6/Shiv.png",
+    "localPath": "image/shiv.png"
+  },
+  {
+    "name": "巨石",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/67/Giant_rock.png",
+    "localPath": "image/giant_rock.png"
+  },
+  {
+    "name": "君王之剑",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/1/1d/Sovereign_blade.png",
+    "localPath": "image/sovereign_blade.png"
+  },
+  {
+    "name": "冷光",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/6/66/Luminesce.png",
+    "localPath": "image/luminesce.png"
+  },
+  {
+    "name": "灵魂",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/d/d5/Soul.png",
+    "localPath": "image/soul.png"
+  },
+  {
+    "name": "仆从捐躯",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/c/c5/Minion_sacrifice.png",
+    "localPath": "image/minion_sacrifice.png"
+  },
+  {
+    "name": "燃料",
+    "image": "https://huiji-public.huijistatic.com/sts2/uploads/4/44/Fuel.png",
+    "localPath": "image/fuel.png"
+  }
+]
