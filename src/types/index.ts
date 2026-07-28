@@ -1,7 +1,7 @@
 // 卡牌数据类型
 export interface Card {
   name: string;
-  image: string;
+  image: string; // 保留兼容 json 数据，但前端不再使用
   localPath: string;
 }
 

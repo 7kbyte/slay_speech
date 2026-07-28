@@ -1,0 +1,5 @@
+{
+  "apiKey": "your-deepseek-api-key-here",
+  "apiEndpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-v4-flash"
+}

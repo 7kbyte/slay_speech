@@ -40,9 +40,9 @@ export function getCardNames(cards: Card[]): string[] {
   return cards.map((c) => c.name);
 }
 
-// 根据卡牌名获取图片 URL（优先在线 URL，fallback 到本地路径）
+// 根据卡牌名获取图片 URL（仅使用本地路径）
 export function getCardImageUrl(cards: Card[], name: string): string | undefined {
   const card = cards.find((c) => c.name === name);
-  if (!card) return undefined;
-  return card.image || card.localPath || undefined;
+  if (!card?.localPath) return undefined;
+  return `cards/${card.localPath}`;
 }
