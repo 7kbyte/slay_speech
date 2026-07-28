@@ -1,5 +1,4 @@
-import type { AIResponse, AppSettings, Card } from '../types';
-import { getCardNames } from './cards';
+import type { AIResponse, AppSettings, Card, CardChoice } from '../types';
 
 const DEFAULT_SETTINGS: AppSettings = {
   apiKey: '',
@@ -9,11 +8,9 @@ const DEFAULT_SETTINGS: AppSettings = {
 
 // 读取 api.config.json 的缓存
 let _configCache: Partial<AppSettings> | null = null;
-let _configLoaded = false;
 
 async function loadApiConfig(): Promise<Partial<AppSettings>> {
-  if (_configLoaded) return _configCache ?? {};
-  _configLoaded = true;
+  if (_configCache) return _configCache;
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}api.config.json`);
     if (res.ok) {
@@ -23,6 +20,7 @@ async function loadApiConfig(): Promise<Partial<AppSettings>> {
   } catch {
     // 文件不存在或读取失败
   }
+  _configCache = {};
   return {};
 }
 
@@ -48,7 +46,8 @@ export async function getSettings(): Promise<AppSettings> {
     }
   }
 
-  return { ...DEFAULT_SETTINGS, ...localConfig, ...fileConfig };
+  // 优先级: 设置页面 (localStorage) > api.config.json > 默认值
+  return { ...DEFAULT_SETTINGS, ...fileConfig, ...localConfig };
 }
 
 export function getSettingsSync(): AppSettings {
@@ -61,13 +60,11 @@ export function saveSettings(settings: AppSettings): void {
 
 // 读取 prompt.config.json 的缓存
 let _promptConfigCache: { systemPrompt?: string; userPromptTemplate?: string } | null = null;
-let _promptConfigLoaded = false;
 
 async function loadPromptConfig() {
-  if (_promptConfigLoaded) return _promptConfigCache ?? {};
-  _promptConfigLoaded = true;
+  if (_promptConfigCache) return _promptConfigCache;
   try {
-    const res = await fetch('/prompt.config.json');
+    const res = await fetch(`${import.meta.env.BASE_URL}prompt.config.json`);
     if (res.ok) {
       _promptConfigCache = await res.json();
       return _promptConfigCache ?? {};
@@ -75,18 +72,99 @@ async function loadPromptConfig() {
   } catch {
     // 文件不存在或读取失败
   }
+  _promptConfigCache = {};
   return {};
 }
 
-function buildSystemPrompt(cards: Card[], promptConfig: { systemPrompt?: string }): string {
-  const names = getCardNames(cards);
-  const nameList = names.join('、');
+function buildCardList(cards: Card[]): string {
+  return cards
+    .map((c) => `[${String(c.id).padStart(3, '0')}_${c.enName}] ${c.name}`)
+    .join('\n');
+}
 
-  const template = promptConfig.systemPrompt || '';
-  // 如果配置了自定义模板则使用，否则使用默认的硬编码后备
-  return template
-    ? template.replace('{{cardCount}}', String(cards.length)).replace('{{cardNames}}', nameList)
-    : `你是杀戮尖塔风格的对话辅助助手。你的任务是：根据一段对话上下文和用户想要表达的意思，从给定的卡牌名称列表中选择最合适的 3 张卡牌。\n\n规则：\n1. 只能从卡牌列表中选择，绝对不能编造或推荐列表之外的卡牌。\n2. 选择标准：卡牌名称的语义最贴近用户想表达的情绪、态度或意图。卡牌名称本身即是表达方式（如"愤怒"代表愤怒的情绪，"防御"代表防守姿态，"打击"代表直接攻击性回应）。\n3. 返回 Top 3 最合适的卡牌，按匹配度从高到低排序。\n4. 每张卡牌附带简短的一句理由（为什么选这张）。\n\n可用的卡牌名称列表（共 ${cards.length} 张）：\n${nameList}\n\n你必须严格按照以下 JSON 格式返回，不要包含任何其他文字：\n{"cards":[{"name":"卡牌名","reason":"选择理由"}],"thinking":"你的简短分析"}`;
+function buildSystemPrompt(cards: Card[]): string {
+  const cardList = buildCardList(cards);
+
+  return `你是杀戮尖塔风格的对话辅助助手。
+
+任务：根据一段对话上下文和用户想表达的意思，从下方卡牌列表中选择最合适的 3 张卡牌。
+
+规则：
+1. 只能从列表中选择，绝对不能编造或推荐不存在的卡牌编号。
+2. 选择标准：卡牌名称和描述的语义最贴近用户想表达的情绪、态度或意图。
+3. 返回 Top 3，按匹配度从高到低排序。
+4. 每张卡牌附带一句简短理由（≤15字），说明为什么选这张。
+
+输出格式（严格遵循）：
+[编号_英文名] 简短理由 | [编号_英文名] 简短理由 | [编号_英文名] 简短理由
+
+输出样例：
+[042_Strike] 直接回击指责 | [018_Rage] 表达心中愤怒 | [075_Defend] 回避冲突退让
+
+卡牌列表（共 ${cards.length} 张）：
+${cardList}`;
+}
+
+/**
+ * 从模型输出中提取卡牌编号和理由
+ * 输入格式: [042_Strike] 直接回击指责 | [018_Rage] 表达心中愤怒 | [075_Defend] 回避冲突退让
+ */
+export function parseCardOutput(raw: string, cards: Card[]): CardChoice[] {
+  const results: CardChoice[] = [];
+
+  // 策略 1: 新格式正则 [编号_英文名] 理由 | ...
+  const regex = /\[(\d{3})_(\w+)\]\s*(.+?)(?=\s*\|\s*(?:\[|$)|$)/g;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(raw)) !== null) {
+    const cardId = parseInt(match[1], 10);
+    const enName = match[2];
+    const reason = match[3].trim().replace(/\s*$/, '');
+
+    const card = cards[cardId];
+    if (card && card.enName === enName) {
+      results.push({ name: card.name, reason, cardId, enName });
+    }
+    if (results.length >= 3) break;
+  }
+
+  // 策略 2: 旧格式 JSON fallback
+  if (results.length === 0) {
+    try {
+      // 尝试提取 JSON
+      let jsonStr = raw.trim();
+      const jsonMatch = jsonStr.match(/```(?:json)?\s*([\s\S]*?)```/);
+      if (jsonMatch) jsonStr = jsonMatch[1].trim();
+
+      const parsed = JSON.parse(jsonStr);
+      if (parsed.cards && Array.isArray(parsed.cards)) {
+        for (const c of parsed.cards) {
+          const card = cards.find(card => card.name === c.name);
+          if (card) {
+            results.push({ name: card.name, reason: c.reason || '', cardId: card.id, enName: card.enName });
+          }
+        }
+      }
+    } catch {
+      // JSON 解析失败，继续下面的策略
+    }
+  }
+
+  // 策略 3: 宽松匹配 [编号_英文名]（只要编号，不要理由）
+  if (results.length === 0) {
+    const looseRegex = /\[(\d{3})_(\w+)\]/g;
+    let looseMatch: RegExpExecArray | null;
+    while ((looseMatch = looseRegex.exec(raw)) !== null) {
+      const cardId = parseInt(looseMatch[1], 10);
+      const enName = looseMatch[2];
+      const card = cards[cardId];
+      if (card && card.enName === enName) {
+        results.push({ name: card.name, reason: '', cardId, enName });
+      }
+    }
+  }
+
+  return results.slice(0, 3);
 }
 
 export async function selectCards(
@@ -97,14 +175,26 @@ export async function selectCards(
   const settings = await getSettings();
 
   // 检查 API Key 是否有效：不为空且不是占位符
-  const invalidKeys = ['', 'your-deepseek-api-key-here', 'sk-your-api-key'];
-  const isInvalidKey = !settings.apiKey || invalidKeys.some(k => settings.apiKey.includes(k));
+  const invalidKeys = ['your-deepseek-api-key-here', 'sk-your-api-key'];
+  const isInvalidKey = !settings.apiKey || invalidKeys.includes(settings.apiKey);
   if (isInvalidKey) {
     throw new Error('请先在「设置」页面填入你的 DeepSeek API Key');
   }
 
   const promptConfig = await loadPromptConfig();
-  const systemPrompt = buildSystemPrompt(cards, promptConfig);
+  let systemPrompt = promptConfig.systemPrompt;
+
+  // 如果 prompt.config.json 有自定义模板，替换占位符
+  if (systemPrompt && (systemPrompt.includes('{{cardCount}}') || systemPrompt.includes('{{cardList}}'))) {
+    systemPrompt = systemPrompt
+      .replace('{{cardCount}}', String(cards.length))
+      .replace('{{cardList}}', buildCardList(cards));
+  }
+
+  // 如果模板为空或不存在，用内置的 buildSystemPrompt
+  if (!systemPrompt) {
+    systemPrompt = buildSystemPrompt(cards);
+  }
 
   // 构建对话上下文
   const contextStr = conversation
@@ -123,7 +213,7 @@ export async function selectCards(
       { role: 'user', content: userMessage },
     ],
     temperature: 0.7,
-    max_tokens: 1024,
+    max_tokens: 2048,
   };
 
   // 调试输出：完整请求
@@ -164,29 +254,18 @@ export async function selectCards(
   console.log(rawContent);
   console.groupEnd();
 
-  // 解析 JSON 响应
-  try {
-    // 尝试提取 JSON（可能被 markdown 代码块包裹）
-    let jsonStr = rawContent.trim();
-    const jsonMatch = jsonStr.match(/```(?:json)?\s*([\s\S]*?)```/);
-    if (jsonMatch) {
-      jsonStr = jsonMatch[1].trim();
-    }
-    const result: AIResponse = JSON.parse(jsonStr);
+  // 用正则提取卡牌编号和理由（新格式）
+  console.group('🔧 [Slay Debug] 解析卡牌选择');
+  console.log('📝 原始文本:', rawContent.trim());
 
-    // 验证卡牌名是否在牌库中
-    const cardNameSet = new Set(cards.map((c) => c.name));
-    result.cards = result.cards.filter((c) => cardNameSet.has(c.name));
+  const choices = parseCardOutput(rawContent, cards);
+  console.log('🎴 解析结果:', choices);
 
-    if (result.cards.length === 0) {
-      throw new Error('AI 未返回有效的卡牌选择');
-    }
-
-    return result;
-  } catch (e) {
-    if (e instanceof SyntaxError) {
-      throw new Error(`AI 返回格式错误: ${rawContent.slice(0, 200)}`);
-    }
-    throw e;
+  if (choices.length === 0) {
+    console.error('❌ 未提取到有效卡牌编号，原始文本:', rawContent.slice(0, 300));
+    throw new Error('AI 未返回有效的卡牌选择，请重试');
   }
+  console.groupEnd();
+
+  return { cards: choices };
 }

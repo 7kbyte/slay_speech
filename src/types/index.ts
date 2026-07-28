@@ -1,8 +1,10 @@
 // 卡牌数据类型
 export interface Card {
   name: string;
-  image: string; // 保留兼容 json 数据，但前端不再使用
+  image: string;
   localPath: string;
+  id: number;
+  enName: string;
 }
 
 // 对话消息
@@ -17,11 +19,12 @@ export interface Message {
 export interface CardChoice {
   name: string;
   reason: string;
+  cardId: number;
+  enName: string;
 }
 
 export interface AIResponse {
   cards: CardChoice[];
-  thinking: string;
 }
 
 // 对话会话

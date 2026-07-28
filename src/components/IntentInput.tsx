@@ -11,7 +11,6 @@ export default function IntentInput({ onSubmit, disabled }: IntentInputProps) {
   const handleSubmit = () => {
     if (intent.trim() && !disabled) {
       onSubmit(intent.trim());
-      setIntent('');
     }
   };
 

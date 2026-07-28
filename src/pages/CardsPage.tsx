@@ -19,6 +19,8 @@ export default function CardsPage() {
     setCards([
       ...cards,
       {
+        id: -1,
+        enName: '',
         name: newCard.name.trim(),
         image: newCard.image.trim(),
         localPath: newCard.localPath.trim(),
@@ -37,6 +39,7 @@ export default function CardsPage() {
     if (editingIdx === null || !editCard.name.trim()) return;
     const updated = [...cards];
     updated[editingIdx] = {
+      ...cards[editingIdx],
       name: editCard.name.trim(),
       image: editCard.image.trim(),
       localPath: editCard.localPath.trim(),

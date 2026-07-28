@@ -10,19 +10,18 @@ export default function ChatPage() {
   const {
     messages,
     cards,
-    settings,
     setMessages,
     addMessage,
     deleteMessage,
   } = useAppStore();
 
   const [choices, setChoices] = useState<CardChoice[]>([]);
-  const [thinking, setThinking] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [newMsgRole, setNewMsgRole] = useState<'user' | 'other'>('user');
   const [newMsgContent, setNewMsgContent] = useState('');
   const [insertIndex, setInsertIndex] = useState<number | null>(null);
+  const [selectorKey, setSelectorKey] = useState(0);
 
   // 拖拽状态
   const [dragIdx, setDragIdx] = useState<number | null>(null);
@@ -38,30 +37,19 @@ export default function ChatPage() {
     (choice: CardChoice) => {
       addMessage({
         id: crypto.randomUUID(),
-        role: 'other',
+        role: 'user',
         content: choice.name,
         cardName: choice.name,
       });
-      setChoices([]);
-      setThinking('');
     },
     [addMessage]
   );
 
   const handleIntent = useCallback(
     async (intent: string) => {
-      const invalidKeys = ['', 'your-deepseek-api-key-here', 'sk-your-api-key'];
-      const hasValidKey = settings.apiKey && !invalidKeys.some(k => settings.apiKey.includes(k));
-
-      if (!hasValidKey) {
-        setError('no-api-key');
-        return;
-      }
-
       setError('');
       setLoading(true);
       setChoices([]);
-      setThinking('');
 
       try {
         const conversation = messages.map((m) => ({
@@ -71,14 +59,13 @@ export default function ChatPage() {
 
         const result = await selectCards(conversation, intent, cards);
         setChoices(result.cards);
-        setThinking(result.thinking);
       } catch (e) {
         setError(e instanceof Error ? e.message : '未知错误');
       } finally {
         setLoading(false);
       }
     },
-    [messages, cards, settings]
+    [messages, cards]
   );
 
   const handleAddManualMessage = () => {
@@ -145,8 +132,8 @@ export default function ChatPage() {
     if (window.confirm('确定要清空所有对话吗？')) {
       setMessages([]);
       setChoices([]);
-      setThinking('');
       setInsertIndex(null);
+      setSelectorKey((k) => k + 1);
     }
   };
 
@@ -159,7 +146,6 @@ export default function ChatPage() {
     ];
     setMessages(demo);
     setChoices([]);
-    setThinking('');
   };
 
   return (
@@ -245,26 +231,6 @@ export default function ChatPage() {
           </div>
         ))}
 
-        {/* AI 思考过程 */}
-        {thinking && choices.length > 0 && (
-          <div className="px-4 py-2 mx-4 rounded-lg bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 text-xs text-zinc-500 leading-relaxed">
-            <span className="text-zinc-400 dark:text-zinc-600">💭 思考: </span>
-            {thinking}
-          </div>
-        )}
-
-        {/* 卡牌选择器 */}
-        {messages.length > 0 && (
-          <div className="px-1">
-            <CardSelector
-              choices={choices}
-              cards={cards}
-              onSelect={handleSelectCard}
-              loading={loading}
-            />
-          </div>
-        )}
-
         {/* 错误提示 */}
         {error && (
           <div className="px-4 py-3 mx-4 rounded-lg bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/20 text-sm text-amber-700 dark:text-amber-400">
@@ -340,6 +306,16 @@ export default function ChatPage() {
         {/* AI 出牌 */}
         <IntentInput onSubmit={handleIntent} disabled={loading} />
       </div>
+
+      {/* 卡牌弹窗（独立于对话流） */}
+      <CardSelector
+        key={selectorKey}
+        choices={choices}
+        cards={cards}
+        onSelect={handleSelectCard}
+        onClose={() => { setLoading(false); }}
+        loading={loading}
+      />
     </div>
   );
 }

@@ -8,7 +8,11 @@ export async function loadCards(): Promise<Card[]> {
   const stored = localStorage.getItem(STORAGE_KEY);
   if (stored) {
     try {
-      return JSON.parse(stored);
+      const parsed: Card[] = JSON.parse(stored);
+      // 检查是否有新字段（id/enName/desc），没有则从文件重新加载
+      if (parsed.length > 0 && parsed[0].id !== undefined && parsed[0].enName) {
+        return parsed;
+      }
     } catch {
       // 解析失败，从默认文件加载
     }
