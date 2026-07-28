@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/slay-speech/',
+  base: '/slay_speech/',
   plugins: [react(), tailwindcss()],
 })

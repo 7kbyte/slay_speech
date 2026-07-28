@@ -168,7 +168,7 @@ export default function CardsPage() {
 
       {/* 卡牌列表 */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-        {filtered.map((card, i) => {
+        {filtered.map((card) => {
           const originalIndex = cards.indexOf(card);
           if (editingIdx === originalIndex) {
             return (
